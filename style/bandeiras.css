@@ -1,0 +1,453 @@
+/*-----FERRAMENTA MUDANÇA DE COR-----*/
+@-webkit-keyframes colorchange {
+    0% {background-color: rgb(255, 0, 0);}
+    15% {background-color: rgb(255, 165, 0);}
+    33% {background-color: rgb(255, 255, 0);}
+    50% {background-color: rgb(0, 128, 0);}
+    68% {background-color: rgb(135, 206, 250);}
+    85% {background-color: rgb(0, 0, 255);}
+    100% {background-color: rgb(128, 0, 128);}
+}
+@keyframes colorchange {
+    0% {background-color: red;}
+    15% {background-color: orange;}
+    33% {background-color: yellow;}
+    50% {background-color: green;}
+    68% {background-color: lightskyblue;}
+    85% {background-color: blue;}
+    100% {background-color: purple;}  
+}
+/*---------------*/
+
+/*-----FERRAMENTA MUDANÇA DE COR LABRYS-----*/
+@-webkit-keyframes labrys {
+    0% {background-color: #e0e0e0;}
+    25% {background-color: #B8B8B8;}
+    50% {background-color:#5c5c5c;}
+    75% {background-color: #c06ac8;}
+    100% {background-color: #9b3da4;}
+}
+@keyframes labrys {
+    0% {background-color: #e0e0e0;}
+    25% {background-color: #B8B8B8;}
+    50% {background-color:#5c5c5c;}
+    75% {background-color: #c06ac8;}
+    100% {background-color: #9b3da4;}
+}
+/*---------------*/
+
+/*-----FERRAMENTA MUDANÇA DE COR LESBICA-----*/
+@-webkit-keyframes lesbica {
+    0% {background-color: #d42c00;}
+    25% {background-color: #fe9148;}
+    50% {background-color:#e0e0e0;}
+    75% {background-color: #d161a2;}
+    100% {background-color: #b7016e;}
+}
+@keyframes lesbica {
+    0% {background-color: #d42c00;}
+    25% {background-color: #fe9148;}
+    50% {background-color:#e0e0e0;}
+    75% {background-color: #d161a2;}
+    100% {background-color: #b7016e;}
+}
+/*---------------*/
+
+/*-----FERRAMENTA MUDANÇA DE COR BISSEXUAL-----*/
+@-webkit-keyframes bi {
+    0% {background-color: #cc0069;}
+    25% {background-color: #b46aaf;}
+    50% {background-color:#7e2559;}
+    75% {background-color: #0041cc;}
+    100% {background-color: #3374ff;}
+}
+@keyframes  bi {
+    0% {background-color: #cc0069;}
+    25% {background-color: #b46aaf;}
+    50% {background-color:#7e2559;}
+    75% {background-color: #0041cc;}
+    100% {background-color: #3374ff;}
+}
+/*---------------*/
+
+/*-----FERRAMENTA MUDANÇA DE COR PANSEXUAL-----*/
+@-webkit-keyframes pan {
+    0% {background-color: #e0006c;}
+    25% {background-color: #ffd605;}
+    50% {background-color:#ffe770;}
+    75% {background-color: #85d6ff;}
+    100% {background-color: #1cb2ff;}
+}
+@keyframes pan {
+    0% {background-color: #e0006c;}
+    25% {background-color: #ffd605;}
+    50% {background-color:#ffe770;}
+    75% {background-color: #85d6ff;}
+    100% {background-color: #1cb2ff;}
+}
+/*---------------*/
+
+/*-----FERRAMENTA MUDANÇA DE COR TRANS-----*/
+@-webkit-keyframes trans {
+    0% {background-color: #a0ceef;}
+    25% {background-color: #f3b8e0;}
+    50% {background-color:#ebebeb;}
+    75% {background-color: #f4b8de;}
+    100% {background-color: #a0ceef;}
+}
+@keyframes trans {
+    0% {background-color: #a0ceef;}
+    25% {background-color: #f3b8e0;}
+    50% {background-color:#ebebeb;}
+    75% {background-color: #f4b8de;}
+    100% {background-color: #a0ceef;}
+}
+/*---------------*/
+
+/*-----FERRAMENTA MUDANÇA DE COR QUEER-----*/
+@-webkit-keyframes queer {
+    0% {background-color: #955dc0;}
+    25% {background-color: #b28ccf;}
+    50% {background-color:#e0e0e0;}
+    75% {background-color: #5aac20;}
+    100% {background-color: #3b7014;}
+}
+@keyframes queer {
+    0% {background-color: #955dc0;}
+    25% {background-color: #b28ccf;}
+    50% {background-color:#e0e0e0;}
+    75% {background-color: #5aac20;}
+    100% {background-color: #3b7014;}
+}
+/*---------------*/
+
+/*-----FERRAMENTA MUDANÇA DE COR INTERSEXO-----*/
+@-webkit-keyframes inter {
+    0% {background-color: #eec41b;}
+    25% {background-color: #f4d867;}
+    50% {background-color:#9f79cd;}
+    75% {background-color: #5b376d;}
+    100% {background-color: #f0cc3a;}
+}
+@keyframes inter {
+    0% {background-color: #eec41b;}
+    25% {background-color: #f4d867;}
+    50% {background-color:#9f79cd;}
+    75% {background-color: #5b376d;}
+    100% {background-color: #f0cc3a;}
+}
+/*---------------*/
+
+/*-----FERRAMENTA MUDANÇA DE COR NÃO-BINARIO-----*/
+@-webkit-keyframes nbinario {
+    0% {background-color: #fff30a;}
+    25% {background-color: #ebebeb;}
+    50% {background-color:#7c2ab7;}
+    75% {background-color: #152228;}
+    100% {background-color: #e0e0f5;}
+}
+@keyframes nbinario {
+    0% {background-color: #fff30a;}
+    25% {background-color: #ebebeb;}
+    50% {background-color:#7c2ab7;}
+    75% {background-color: #152228;}
+    100% {background-color: #e0e0f5;}
+}
+/*---------------*/
+
+/*-----FERRAMENTA MUDANÇA DE COR ASSEXUAL-----*/
+@-webkit-keyframes assexual {
+    0% {background-color: #141414;}
+    25% {background-color: #8f8f8f;}
+    50% {background-color:#e0e0e0;}
+    75% {background-color: #a517b5;}
+    100% {background-color: #420948;}
+}
+@keyframes assexual {
+    0% {background-color: #141414;}
+    25% {background-color: #8f8f8f;}
+    50% {background-color:#e0e0e0;}
+    75% {background-color: #a517b5;}
+    100% {background-color: #420948;}
+}
+/*---------------*/
+
+/*-----FERRAMENTA MUDANÇA DE COR FLUIDO-----*/
+@-webkit-keyframes fluido {
+    0% {background-color: #ff75a2;}
+    25% {background-color: #f5f5f5;}
+    50% {background-color:#be18d6;}
+    75% {background-color: #2c2c2c;}
+    100% {background-color: #333ebd;}
+}
+@keyframes fluido {
+    0% {background-color: #ff75a2;}
+    25% {background-color: #f5f5f5;}
+    50% {background-color:#be18d6;}
+    75% {background-color: #2c2c2c;}
+    100% {background-color: #333ebd;}
+}
+/*---------------*/
+
+/*-----FERRAMENTA MUDANÇA DE COR AGENERO-----*/
+@-webkit-keyframes agenero {
+    0% {background-color: #1f1f1f;}
+    25% {background-color: #bcc4c6;}
+    50% {background-color:#b6f583;}
+    75% {background-color: #bcc4c6;}
+    100% {background-color: #141414;}
+}
+@keyframes agenero {
+    0% {background-color: #1f1f1f;}
+    25% {background-color: #bcc4c6;}
+    50% {background-color:#b6f583;}
+    75% {background-color: #bcc4c6;}
+    100% {background-color: #141414;}
+}
+/*---------------*/
+
+/*-----FERRAMENTA MUDANÇA DE COR ARROMANTICO-----*/
+@-webkit-keyframes arromantico {
+    0% {background-color: #3da542;}
+    25% {background-color: #a7d379;}
+    50% {background-color:#ebebeb;}
+    75% {background-color: #a9a9a9;}
+    100% {background-color: #141414;}
+}
+@keyframes arromantico {
+    0% {background-color: #3da542;}
+    25% {background-color: #a7d379;}
+    50% {background-color:#ebebeb;}
+    75% {background-color: #a9a9a9;}
+    100% {background-color: #141414;}
+}
+/*---------------*/
+
+.bandeira{
+    display: flex;
+    width: 85%;
+    -webkit-animation: colorchange 15s infinite; 
+    animation: colorchange 15s infinite;
+    align-items: center;
+    margin: 80px auto;
+    border-radius: 35px;
+    border: solid 5px black;
+}
+
+.bandeira_img{
+    width: 622.3px;
+    height: 350px;
+    border-radius: 10px;
+    border: solid 5px black;
+}
+
+.imagemtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.titulo{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumo{
+    margin: 30px 40px;
+}
+
+.texto{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.imagens{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 3px black;
+}
+
+.bandeiras{
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    justify-content: center;
+    margin-left: 17px;
+    margin-bottom: 50px;
+}
+
+.titulos{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
+
+.textos{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 20px;
+}
+
+.fundolabrys{
+    display: flex;
+    -webkit-animation: labrys 15s infinite; 
+    animation: labrys 15s infinite;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+.fundolesbica{
+    display: flex;
+    -webkit-animation: lesbica 15s infinite; 
+    animation: lesbica 15s infinite;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+.fundobi{
+    display: flex;
+    -webkit-animation:  bi 15s infinite; 
+    animation: bi 15s infinite;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+.fundopan{
+    display: flex;
+    -webkit-animation: pan 15s infinite; 
+    animation: pan 15s infinite;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+.fundotrans{
+    display: flex;
+    -webkit-animation: trans 15s infinite; 
+    animation: trans 15s infinite;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+.fundoqueer{
+    display: flex;
+    -webkit-animation: queer 15s infinite; 
+    animation: queer 15s infinite;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+.fundointer{
+    display: flex;
+    -webkit-animation: inter 15s infinite; 
+    animation: inter 15s infinite;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+.fundonbinario{
+    display: flex;
+    -webkit-animation: nbinario 15s infinite; 
+    animation: nbinario 15s infinite;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+.fundoassexual{
+    display: flex;
+    -webkit-animation: assexual 15s infinite; 
+    animation: assexual 15s infinite;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+.fundofluido{
+    display: flex;
+    -webkit-animation: fluido 15s infinite; 
+    animation: fluido 15s infinite;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+.fundoagenero{
+    display: flex;
+    -webkit-animation: agenero 15s infinite; 
+    animation: agenero 15s infinite;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+.fundoarromantico{
+    display: flex;
+    -webkit-animation: arromantico 15s infinite; 
+    animation: arromantico 15s infinite;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border: solid 5px black;
+    margin: 30px;
+}

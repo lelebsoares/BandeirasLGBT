@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/contato.css" />
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>CONTATO - ENTRE EM CONTATO COM A GENTE</h1>
+        <img src="imagens/bandeiralgbtqia.png">
+        <div>
+            <nav>
+                <ul class="navegacao">
+                    <li class="item_menu"><a class="link" href="sobre.html">Sobre</a></li>
+                    <li class="item_menu"><a class="link" href="bandeiras.html">Bandeiras</a></li>
+                    <li class="item_menu"><a class="link" href="alunas.html">Alunas</a></li>
+                    <li class="item_menu"><a class="link" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="tudo">
+            <div class="formulario">
+                <form action="/arquivosQueVaiReceberOsDados.x" method="POST">
+                    <label for="nome">Nome e Sobrenome</label>
+                    <input class="inputpadrao" type="text" id="nome" required oninvalid="this.setCustomValidity('Nome requerido!')"/>
+        
+                    <label for="email">Email</label>
+                    <input class="inputpadrao" type="email" id="email" required placeholder="seuemail@dominio.com"/>
+        
+                    <label for="mensagem">Mensagem</label>
+                    <textarea class="inputpadrao" cols="80" rows="10" id="mensagem" required></textarea>
+        
+                    <input class="enviar" type="submit" value="Enviar Formulário" onclick="alert('Oi')"/>
+                </form>
+            </div>
+            <img  class="imagem" src="imagens/newmessage.svg">
+        </div>
+        
+    </main>
+</body>
+<footer class="rodape">
+    &copy; Letícia Borges & Rayssa Katsumata - 2021
+</footer>
+
+</html>

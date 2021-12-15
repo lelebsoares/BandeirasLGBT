@@ -1,0 +1,156 @@
+/*-----CODIGOS "PADRÕES"-----*/
+.pessoas_itens{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.imagens{
+    width: 300px;
+    height: 300px;
+    border: solid 2px black;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 0;
+}
+
+.pessoas_itens li{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+ }
+/*---------------*/
+
+
+/*-----ALUNAS-----*/
+.alunas{
+    -webkit-animation: colorchange 15s infinite; 
+    animation: colorchange 15s infinite;
+    border: solid 4px black;
+    width: 800px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.texto{
+    font-size: 18px;
+    text-align: justify;
+    padding: 5px 15px;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*---------------*/
+
+/*-----PROFESSOR-----*/
+.professor{
+    -webkit-animation: colorchange 15s infinite; 
+    animation: colorchange 15s infinite;
+    border: solid 4px black;
+    width: 800px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.professor img{
+    margin: 0 30px;
+}
+
+.professor li{
+    margin: 50px 0;
+}
+
+.professor p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 55px 25px 25px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.curriculo{
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+}
+/*---------------*/
+
+
+/*-----FERRAMENTA MUDANÇA DE COR-----*/
+@-webkit-keyframes colorchange {
+    0% {background-color: rgb(255, 0, 0);}
+    15% {background-color: rgb(255, 165, 0);}
+    33% {background-color: rgb(255, 255, 0);}
+    50% {background-color: rgb(0, 128, 0);}
+    68% {background-color: rgb(135, 206, 250);}
+    85% {background-color: rgb(0, 0, 255);}
+    100% {background-color: rgb(128, 0, 128);}
+}
+@keyframes colorchange {
+    0% {background-color: red;}
+    15% {background-color: orange;}
+    33% {background-color: yellow;}
+    50% {background-color: green;}
+    68% {background-color: lightskyblue;}
+    85% {background-color: blue;}
+    100% {background-color: purple;}  
+}
+/*---------------*/
+
+
+/*-----TEXTO DE AJUDA COM ABREVIAÇÕES-----*/
+abbr[title]{
+    text-decoration: none;
+}
+
+abbr[title]:hover{
+    cursor: help;
+}
+/*---------------*/
+
+
+@media only screen and (max-device-width: 768px) {
+    
+    .pessoas_itens{
+    flex-direction: column;
+    }
+
+    .imagens{
+        width: 250px;
+        height: 250px;
+    }
+    
+    h2{
+        font-size: 35px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+
+    .pessoas_itens li{
+        padding-left: 0px;
+     }
+
+    .texto{
+        font-size: 15px;
+        padding-left: 35px;
+    }
+
+    .professor p{
+        font-size: 15px;
+        margin-left: 35px;
+        padding-right: 30px;
+        margin-top: 15px;
+    }
+}
